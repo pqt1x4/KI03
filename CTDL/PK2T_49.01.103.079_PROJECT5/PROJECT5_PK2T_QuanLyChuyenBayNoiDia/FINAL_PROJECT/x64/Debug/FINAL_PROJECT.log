@@ -1,0 +1,51 @@
+﻿  Main.cpp
+D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(62,3): warning C4551: function call missing argument list
+  (compiling source file 'Main.cpp')
+      D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(62,3):
+      the template instantiation context (the oldest one first) is
+          D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Main.cpp(7,24):
+          see reference to class template instantiation 'DanhSachVePending<Ve>' being compiled
+          D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\DanhSachVePending.h(5,33):
+          see reference to class template instantiation 'Queue<Ve>' being compiled
+          with
+          [
+              Ve=Ve
+          ]
+          D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(59,37):
+          while compiling class template member function 'DataType Queue<DataType>::deQueue(void)'
+          with
+          [
+              DataType=Ve
+          ]
+              D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Main.cpp(571,20):
+              see the first reference to 'Queue<Ve>::deQueue' in 'main'
+          with
+          [
+              Ve=Ve
+          ]
+  
+D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(87,3): warning C4551: function call missing argument list
+  (compiling source file 'Main.cpp')
+      D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(87,3):
+      the template instantiation context (the oldest one first) is
+          D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\DanhSachVePending.cpp(11,43):
+          while compiling class template member function 'void DanhSachVePending<Ve>::xuLyDocFile(void)'
+              D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Main.cpp(14,32):
+              see the first reference to 'DanhSachVePending<Ve>::xuLyDocFile' in 'main'
+          D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(84,34):
+          while compiling class template member function 'DataType Queue<DataType>::peek(void)'
+          with
+          [
+              DataType=Ve
+          ]
+              D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\DanhSachVePending.cpp(67,11):
+              see the first reference to 'Queue<Ve>::peek' in 'DanhSachVePending<Ve>::updateFile'
+          with
+          [
+              Ve=Ve
+          ]
+              D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Main.cpp(676,39):
+              see the first reference to 'DanhSachVePending<Ve>::updateFile' in 'main'
+  
+D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\FINAL_PROJECT\Queue.cpp(75,1): warning C4715: 'Queue<Ve>::deQueue': not all control paths return a value
+  FINAL_PROJECT.vcxproj -> D:\CTDL\PROJECT_CTDL_HCMUE_2022-master\x64\Debug\FINAL_PROJECT.exe
